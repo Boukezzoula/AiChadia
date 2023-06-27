@@ -10,3 +10,4 @@ Flask-Cors
 passlib
 gunicorn
 whisper
+yt-dlp
