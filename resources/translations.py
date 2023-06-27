@@ -110,7 +110,8 @@ def get_video(urls):
 @jwt_required()
 def generate_transcription(audio_file_path):
     # load the best model
-    model = whisper.load_model("large")
+    # change the model from large to medium
+    model = whisper.load_model("medium")
     result = model.transcribe(audio_file_path, task='translate')
     # returns english translation text
     return result["text"]
