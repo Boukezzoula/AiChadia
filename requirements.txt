@@ -1,0 +1,12 @@
+flask
+flask-smorest
+python-dotenv
+sqlalchemy
+flask-sqlalchemy
+flask-jwt-extended
+flask-swagger-ui
+Flask-Cors
+Flask-Cors
+passlib
+gunicorn
+whisper
