@@ -76,10 +76,10 @@ def create_app(db_url=None):
         }), 401
 
 
-    @app.before_first_request
+    #@app.before_first_request
 
-    #with app.app_context():
-    def create_tables():
+    with app.app_context():
+    #def create_tables():
         db.create_all()
 
     app.register_blueprint(TranslationBlueprint)
