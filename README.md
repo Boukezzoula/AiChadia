@@ -3,7 +3,8 @@ Generate Youtube Video Translation / Transcription
 
 This small tool will allow you to generate translation and transcription files for any youtube video , all you need to do is to past the url of the video and enjoy ! 
 
-https://www.youtube.com/watch?v=ZrJo8rNV20M&ab_channel=BoukezzoulaMohamed
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/ZrJo8rNV20M/hqdefault.jpg)](https://www.youtube.com/watch?v=ZrJo8rNV20M&ab_channel=BoukezzoulaMohamed
+ "AI MockingBird Platform To Translate And Transcribe Any Youtube Video")
 
 ## Installation
 
