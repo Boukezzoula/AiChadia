@@ -91,7 +91,7 @@ def get_video(urls):
 def generate_transcription(audio_file_path):
     # load the best model
     # change the model from large to medium
-    model = whisper.load_model("medium")
+    model = whisper.load_model("large")
     result = model.transcribe(audio_file_path)
     # returns transcribed text
     return result["text"]
